@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- custom css sendiri -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- css animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <header class="animate__animated animate__backInDown">
+    <div class="logo">
+      <img src="assets/icon/partner.png" alt="logo" class="logo-img">
+      <h1 class="logo-title">RIDHA X</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#jasa">JASA</a></li>
+        <li><a href="mailto:cerberus1998@gmail.com">KONTAK</a></li>
+      </ul>
+    </nav>
+    <button class="btn-cta" onclick="redir()">FOLLOW SAYA</button>
+  </header>
+  <div class="container">
+    <div class="intro">
+      <p class="title animate__animated animate__backInLeft">Hello, Muhammad Ridha is here!</p>
+      <p class="description animate__animated animate__backInRight">Junior Programmer from Village</p>
+      <img src="assets/foto/foto-1.jpg" alt="foto-1" class="img-foto  animate__animated animate__backInUp">
+    </div>
+  </div>
+  <div class="parallax">
+    <div class="tentang">
+      <p class="title">Saya adalah Programmer</p>
+      <p class="description">Ngoding aja dulu, jagonya nanti.</p>
+      <div class="mt-10">
+        <button class="btn-cta" onclick="redirWa()">Mari Kerjasama</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card" id="jasa">
+        <div class="card-item">
+          <img src="assets/icon/24-hours.png" alt="icon-1" class="icon">
+          <p class="card-title">Pelayanan Nonstop</p>
+          <p class="card-description">Servis nonstop ketika anda membutuhkan bantuan</p>
+        </div>
+        <div class="card-item">
+          <img src="assets/icon/hot-deal.png" alt="icon-2" class="icon">
+          <p class="card-title">Jasa Paling Murah</p>
+          <p class="card-description">Biaya jasa yang saya berikan pasti murah dan terjamin.</p>
+        </div>
+        <div class="card-item">
+          <img src="assets/icon/rating.png" alt="icon-3" class="icon">
+          <p class="card-title">690 Review</p>
+          <p class="card-description">Mereka sangat senang dalam bekerjasama dengan saya.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="title">&copy; Muhammad Ridha Website 2022</p>
+  </footer>
+  <script>
+    function redir() {
+      window.location.href = "https://instagram.com/warfbcf"
+    }
+
+    function redirWa() {
+      window.location.href = "https://wa.me/+6282111112222"
+    }
+  </script>
+</body>
+
+</html>
